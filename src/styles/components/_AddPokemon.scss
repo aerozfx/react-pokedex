@@ -1,0 +1,33 @@
+@import "../utils/mixins.scss";
+
+.form-add{
+    @include flex-container;
+    width: 100%;
+    max-width: 450px;
+    gap: 50px;
+    form{
+        @include flex-container;
+        border-radius: 20px;
+        width: 100%;
+        padding: 50px 40px;
+        gap: 20px;
+        background-color: rgb(198, 198, 198);
+        input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid transparent;
+        }
+        select {
+            padding: 10px;
+        }
+        & * {
+            width: 100%;
+        }
+        .error{
+            color: red;
+        }
+        .input-error{
+            border: 1px solid red;
+        }
+    }
+}
