@@ -34,9 +34,13 @@ Los usuarios podrán:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./src/assets/screenshots/vista-home.png)
+![](./src/assets/screenshots/vista-home-responsive.png)
+![](./src/assets/screenshots/vista-addpokemon-responsive.png)
+![](./src/assets/screenshots/vista-addpokemon-error.png)
+![](./src/assets/screenshots/vista-detalle.png)
+![](./src/assets/screenshots/vista-detalle-responsive-1.png)
+![](./src/assets/screenshots/vista-detalle-responsive-2.png)
 
 ### Links
 
@@ -58,7 +62,8 @@ Los usuarios podrán:
 ### Aprendizaje
 
 Durante este proyecto he reforzado conceptos, como el uso de `useEffect`, o `useContext`. Reconociendo las situaciones en las que su uso es necesario.
-Por otro lado, también he aprendido a idenficar cuando es necesario un `custom hook`. En este proyecto, he creado uno `useQueryParameters`. Para poder separar las distintas queries introducidas por URL.
+
+Por otro lado, también he aprendido a idenficar cuando es necesario un `custom hook`. En este proyecto, he creado uno, `useQueryParameters` para poder separar las distintas queries introducidas por URL.
 
 ```javascript
 import { useLocation } from "react-router-dom";
@@ -85,7 +90,9 @@ export default useQueryParameter;
 ### A mejorar
 
 Debido a la deadline de este proyecto, no he podido añadir todas las funcionalidades que me hubieran gustado.
+
 En este caso, me hubiera gustado añadir un login, para que el usuario o usuaria añada los Pokemon que considere a una sección de `Favoritos`
+
 También me hubiera gustado ultimar los detalles del diseño responsive. Añadir la pantalla de GameBoy al iniciar la aplicación.
 
 ### Recursos - Librerías
